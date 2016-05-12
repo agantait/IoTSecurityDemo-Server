@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: iotsecuritydemo
+  host: iotsecuritydemo
+  disk_quota: 1024M
+  services:
+  - iotsecuritydemo-iotf
+  - iotsecuritydemo-mobileaccess
+  - iotsecuritydemo-cloudant
+

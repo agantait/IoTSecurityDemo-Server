@@ -1,0 +1,10 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "iotsecuritydemo-cloudant": {
+    "name": "iotsecuritydemo-cloudant",
+    "connector": "memory"
+  }
+}
